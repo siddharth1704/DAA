@@ -26,10 +26,10 @@ int main(){
             break;
         }
         if(arr[mid]>x)
-            hi--;
+            hi=mid-1;
         
         else
-            lo++;
+            lo=mid+1;
       }
      if(f!=-1)
        cout<<"Present "<<f+1;
